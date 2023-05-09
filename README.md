@@ -11,7 +11,8 @@ The project aim was to store the parsed data of websites in database such as in 
 4. Virtual Environment module
 5. ipython module
 6. MYSQL installed
-3, 4, and 5 are python modules there installation steps are given below.
+7. Windows OS
+\n3, 4, and 5 are python modules there installation steps are given below.
 
 
 
@@ -101,7 +102,6 @@ You can install virtualenv using pip. Unix/macOS.
 
 **Part 7: Storing Data In CSVs & Databases**
 
-
-**RESOURCES :- ** https://scrapeops.io/python-scrapy-playbook/freecodecamp-beginner-course/
+**RESOURCES :-**  https://scrapeops.io/python-scrapy-playbook/freecodecamp-beginner-course/
 
 
