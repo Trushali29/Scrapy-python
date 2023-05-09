@@ -1,6 +1,8 @@
 # Scrapy-python
-Learn basic of scrapy module of python that allows to scrape data from websties and store it in csv, json format also in databases 
-The project aim was to store the parsed data of websites in database such as in mysql
+Learn basic of scrapy module of python that allows to scrape data from websties and store it in csv, json format also in databases. 
+The project aim was to store the parsed data of websites in database such as in mysql.
+
+
 
 **RESOURCES SHOULD BE PRESENT FOR PROJECT TO WORK**
 1. Visual Studio code or any code editor
@@ -11,30 +13,34 @@ The project aim was to store the parsed data of websites in database such as in 
 6. MYSQL installed
 3, 4, and 5 are python modules there installation steps are given below.
 
+
+
 **STEPS TO FOLLOW AS PER PROJECT**
-1. PIP :- the PIP Installed packages that helps to install python packages
+1. PIP :- the PIP Installed packages that helps to install python packages.
 
 2. MODULES :- virtualenv, Scrapy, ipython
-    ipython :- an interactive shell for python 
+    ipython :- an interactive shell for python. 
 
 3. virtualenv :- virtualenv is used to manage Python packages for different projects. 
 Using virtualenv allows you to avoid installing Python packages globally which could break system tools or other projects. 
 You can install virtualenv using pip. Unix/macOS.
 (to avoid any global issues while installing a packages in one packges that may or may not affect other projects)
 
-4. To create a virtual environment use 
+4. To create a virtual environment use. 
     command:- python -m venv foldername
 
-5. Activate the venv folder so that any packages install after this will be used in this folder 
+5. Activate the venv folder so that any packages install after this will be used in this folder.
     command:-  (foldername)venv\Scripts\activate (for windows)
 
-6. After activating the virutal env install Scrapy
+6. After activating the virutal env install Scrapy.
     command:- pip install Scrapy
 
-**UNDERSTAND THE SCRAPY PROJECT FOLDER  **
+
+
+**UNDERSTAND THE SCRAPY PROJECT FOLDER**
 
 1. create a scrapy projects
-    command:- scrapy startproject projectname
+    command:- scrapy startproject projectname.
 
 2. spider folder
 
@@ -70,20 +76,32 @@ You can install virtualenv using pip. Unix/macOS.
     7.1 TYPES OF MIDDLEWARES
         Consist middlewares which are assigned in settings.py. 
 
- **PART - 4 WORKING WITH THE SPIDERS **
+**PART - 4 WORKING WITH THE SPIDERS**
 
 1. GENERATE SPIDER
     Command:- scrapy genspider spider_name url_of_website
 
 2. IPYTHON INTERACTIVE SHELL 
-    Go to the scrapy.cfg file and type **shell = ipython after install this package**
+    Go to the scrapy.cfg file and type **shell = ipython** after install this package.
 
 
-REST OF THE SCRAPY PROJECT IS DONE FOLLOWING BELOW STEPS FROM WEBSITE https://scrapeops.io/python-scrapy-playbook/freecodecamp-beginner-course/
-**Part 1: Course & Scrapy Overview
-Part 2: Setting Up Environment & Scrapy
-Part 3: Creating Scrapy Project
-Part 4: First Scrapy Spider
-Part 5: Crawling With Scrapy
-Part 6: Cleaning Data With Item Pipelines
-Part 7: Storing Data In CSVs & Databases**
+**STEPS TO FOLLOWED FROM THE BELOW WEBSITES TO LEARN SCRAPY**
+
+**Part 1: Course & Scrapy Overview**
+
+**Part 2: Setting Up Environment & Scrapy**
+
+**Part 3: Creating Scrapy Project**
+
+**Part 4: First Scrapy Spider**
+
+**Part 5: Crawling With Scrapy**
+
+**Part 6: Cleaning Data With Item Pipelines**
+
+**Part 7: Storing Data In CSVs & Databases**
+
+
+**RESOURCES :- ** https://scrapeops.io/python-scrapy-playbook/freecodecamp-beginner-course/
+
+
