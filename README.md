@@ -12,9 +12,8 @@ The project aim was to store the parsed data of websites in database such as in 
 5. ipython module
 6. MYSQL installed
 7. Windows OS
-\n3, 4, and 5 are python modules there installation steps are given below.
 
-
+Step 3-5 are python modules there installation steps are given below.
 
 **STEPS TO FOLLOW AS PER PROJECT**
 1. PIP :- the PIP Installed packages that helps to install python packages.
