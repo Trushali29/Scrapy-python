@@ -73,11 +73,8 @@ You can install virtualenv using pip. Unix/macOS.
 3. fetch('URL OF SITE')
     It scrapes whole stie and stores it's response in the variable. This will help to work on the (copy) site.
 
-   ''' In [1]: fetch('https://books.toscrape.com/')
-    2023-05-07 16:26:37 [asyncio] DEBUG: Using selector: SelectSelector
-    2023-05-07 16:26:37 [scrapy.core.engine] INFO: Spider opened
-    2023-05-07 16:26:39 [scrapy.core.engine] DEBUG: Crawled (404) <GET https://books.toscrape.com/robots.txt> (referer: None)
-    2023-05-07 16:26:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://books.toscrape.com/> (referer: None)'''
+   ''' In [1]: fetch('https://books.toscrape.com/')'''
+  
 
 4.  command --> response
     This will tell a html variable in which whole  site is scraped and stored.
