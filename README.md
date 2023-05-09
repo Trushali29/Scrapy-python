@@ -1,10 +1,17 @@
 # Scrapy-python
-Learn basic of scrapy that allows to scrape data from websties and store it in csv, json format also in databases
-LEARNING HOW TO USE SCRAPY 
+Learn basic of scrapy module of python that allows to scrape data from websties and store it in csv, json format also in databases 
+The project aim was to store the parsed data of websites in database such as in mysql
 
-https://scrapeops.io/python-scrapy-playbook/freecodecamp-beginner-course/
+**RESOURCES SHOULD BE PRESENT FOR PROJECT TO WORK**
+1. Visual Studio code or any code editor
+2. Latest Python Installed
+3. Scrapy module 
+4. Virtual Environment module
+5. ipython module
+6. MYSQL installed
+3, 4, and 5 are python modules there installation steps are given below.
 
-
+**STEPS TO FOLLOW AS PER PROJECT**
 1. PIP :- the PIP Installed packages that helps to install python packages
 
 2. MODULES :- virtualenv, Scrapy, ipython
@@ -24,7 +31,8 @@ You can install virtualenv using pip. Unix/macOS.
 6. After activating the virutal env install Scrapy
     command:- pip install Scrapy
 
------------------------------------- PART - 3 UNDERSTAND THE SCRAPY PROJECT FOLDER  ------------------------------------
+**UNDERSTAND THE SCRAPY PROJECT FOLDER  **
+
 1. create a scrapy projects
     command:- scrapy startproject projectname
 
@@ -62,51 +70,20 @@ You can install virtualenv using pip. Unix/macOS.
     7.1 TYPES OF MIDDLEWARES
         Consist middlewares which are assigned in settings.py. 
 
-------------------------------------- PART - 4 WORKING WITH THE SPIDERS -------------------------------------
+ **PART - 4 WORKING WITH THE SPIDERS **
 
 1. GENERATE SPIDER
     Command:- scrapy genspider spider_name url_of_website
 
 2. IPYTHON INTERACTIVE SHELL 
-    Go to the scrapy.cfg file and type shell = ipython after install this package
-
-3. fetch('URL OF SITE')
-    It scrapes whole stie and stores it's response in the variable. This will help to work on the (copy) site.
-
-   ''' In [1]: fetch('https://books.toscrape.com/')'''
-  
-
-4.  command --> response
-    This will tell a html variable in which whole  site is scraped and stored.
-    #In [2]: response
-    #Out[2]: <200 https://books.toscrape.com/>
-
-5. To look for specific tag.
-command --> response.css() --> can be class,id tag.
-
-    '''In [6]: response.css('article.product_pod')
-    Out[6]: 
-    [<Selector xpath="descendant-or-self::article[@class and contains(concat(' ', normalize-space(@class), ' '), ' product_pod ')]" data='<article class="product_pod">\n       ...'>,
-    <Selector xpath="descendant-or-self::article[@class and contains(concat(' ', normalize-space(@class), ' '), ' product_pod ')]" data='<article class="product_pod">\n       ...'>,
-    <Selector xpath="descendant-or-self::article[@class and contains(concat(' ', normalize-space(@class), ' '), ' product_pod ')]" data='<article class="product_pod">\n       ...'>,'''
-
-6. get only initial article code
-    command --> response.css('').get()
-
-        '''In [7]: response.css('article.product_pod').get()
-        Out[7]: '<article class="product_pod">\n        \n            <div class="image_container">\n                \n                    \n
-        <a href="catalogue/a-light-in-the-attic_1000/index.html"><img src="media/cache/2c/da/2cdad67c44b002e7ead0cc35693c0e8b.jpg" alt="A Light in the Attic" class="thumbnail"></a>\n                    \n                \n            </div>\n        \n\n        \n            \n
-        <p class="star-rating Three">\n                    <i class="icon-star"></i>\n                    <i class="icon-star"></i>\n
-        <i class="icon-star"></i>\n                    <i class="icon-star"></i>\n                    <i class="icon-star"></i>\n                </p>\n            \n        \n\n        \n            <h3><a href="catalogue/a-light-in-the-attic_1000/index.html" title="A Light in the Attic">A Light in the ...</a></h3>\n        \n\n        \n            <div class="product_price">\n                \n\n\n\n\n\n\n    \n        <p class="price_color">£51.77</p>\n    \n\n<p class="instock availability">\n    <i class="icon-ok"></i>\n    \n        In stock\n    \n</p>\n\n
-    \n                    \n\n\n\n\n\n\n    \n    <form>\n        <button type="submit" class="btn btn-primary btn-block" data-loading-text="Adding...">Add to basket</button>\n    </form>\n\n\n                \n            </div>\n        \n    </article>' '''
+    Go to the scrapy.cfg file and type **shell = ipython after install this package**
 
 
-7. get the len of total books shown on a single pages
-
-    In [8]: books = response.css('article.product_pod')
-    
-    In [10]: len(books)
-    Out[10]: 20
-
-
---------------------  REST THROUGH WEBSITE GIVEN ABOVE -----------------
+REST OF THE SCRAPY PROJECT IS DONE FOLLOWING BELOW STEPS FROM WEBSITE https://scrapeops.io/python-scrapy-playbook/freecodecamp-beginner-course/
+**Part 1: Course & Scrapy Overview
+Part 2: Setting Up Environment & Scrapy
+Part 3: Creating Scrapy Project
+Part 4: First Scrapy Spider
+Part 5: Crawling With Scrapy
+Part 6: Cleaning Data With Item Pipelines
+Part 7: Storing Data In CSVs & Databases**
